@@ -10,7 +10,7 @@ from inline import *
 
 logging.basicConfig(level=logging.INFO)
 
-BOT_TOKEN = '6256258027:AAHMERnLzHtsKzqQlWDAqpGPbRd46M6hhq0'
+BOT_TOKEN = 'YOUR TOKEN'
 
 bot = Bot(token=BOT_TOKEN, parse_mode='Markdown')
 dp = Dispatcher(bot=bot)
